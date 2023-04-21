@@ -1,5 +1,5 @@
 import React from 'react';
-import Form from './Form/Form';
+// import Form from './Form/Form';
 import LoginForm from './LoginForm/LoginForm';
 
 export const App = () => {

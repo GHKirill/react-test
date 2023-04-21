@@ -1,4 +1,4 @@
-import Ract, { Component } from 'react';
+import { Component } from 'react';
 
 export default class LoginForm extends Component {
   handleSubmit = evt => {
