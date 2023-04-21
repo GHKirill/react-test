@@ -1,16 +1,13 @@
+import React from 'react';
+import Form from './Form/Form';
+import LoginForm from './LoginForm/LoginForm';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div>
+      <LoginForm />
+      <div> Nothing</div>
+      <div> Nothing else</div>
     </div>
   );
 };
